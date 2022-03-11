@@ -1,0 +1,274 @@
+/* Right Side Styling*/
+.righth4 {
+  width: 645px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+
+  /* h4 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 123.5%;
+  /* identical to box height, or 42px */
+
+  letter-spacing: 0.25px;
+
+  /* text/primary */
+
+  color: #1e2022;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.rightp {
+  position: static;
+  width: 645px;
+  height: 24px;
+  left: 0px;
+  top: 50px;
+
+  /* body1 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.15px;
+
+  /* text/secondary */
+
+  color: #71808e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 100%;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.postion {
+  position: static;
+  width: 645px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+}
+.centerMyForm {
+  justify-content: center;
+  align-items: center;
+}
+.inputText {
+  text-align: left;
+}
+.container {
+  width: 100%;
+}
+.rightText {
+  text-align-last: right;
+}
+
+.size {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 12px;
+
+  position: static;
+  width: 645px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  /* other/stroke */
+
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 3px 0px;
+}
+
+.password {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 24px;
+  height: 24px;
+  right: 0px;
+  top: calc(50% - 24px / 2);
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+/* Left Side Styling*/
+
+.Color {
+  background-color: #ebf5ff;
+}
+
+.MainBox {
+  background-color: #ebf5ff;
+  width: 945px;
+  height: auto;
+}
+.AllContentBox {
+  /* background-color: #356492; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: fixed;
+  width: 510px;
+  height: 750px;
+  left: 217px;
+  top: 165px;
+}
+
+.ImageBox {
+  position: relative;
+  width: 510px;
+  background-image: url("../../images/m1.png");
+  height: 500px;
+}
+.ContentBox {
+  /* background-color: #121213; */
+  width: 510px;
+  height: 130px;
+  top: 556px;
+}
+.leftp {
+  position: static;
+  width: 510px;
+  height: 72px;
+  left: 0px;
+  top: 58px;
+
+  /* body1 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  /* text/secondary */
+
+  color: #71808e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.lefth4 {
+  position: static;
+  width: 510px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 123.5%;
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  color: #1e2022;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.slides {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 64px;
+  height: 8px;
+  left: 223px;
+  top: 742px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 56px 0px;
+}
+
+.right {
+  float: right;
+  padding-right: 0;
+}
+.left {
+  padding-left: 0;
+  float: right;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
